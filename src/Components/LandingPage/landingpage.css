@@ -1,0 +1,57 @@
+.dash-container
+{
+    height: 100vh;
+}
+.dash-navbar
+{
+    display: flex;
+    background: aliceblue;
+    height: 6%;
+    padding: 34px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.dash-main{
+    height: 93%;
+    background: snow;
+    width: 100%;
+}
+.dash-admin-table-container
+{
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+}
+.dash-table-heading
+{
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.dash-table-heading span:nth-child(1)
+{
+    width: 25%;
+}
+.dash-table-heading span:nth-child(2)
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.dash-table-heading span:nth-child(3)
+{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+.modal-footer
+{
+    justify-content: center;
+}
+.modal-footer .btn
+{
+width: 120px;
+}
